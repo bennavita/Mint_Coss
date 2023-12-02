@@ -2,10 +2,10 @@ import pyautogui as souris
 import time
 
 def main():
-    # Délai de 5 secondes pour vous permettre de passer à la fenêtre souhaitée
+    # Délai de 10 secondes pour vous permettre de passer à la fenêtre souhaitée
     print("L'automatisation commencera dans 10 secondes...")
     time.sleep(10)
-
+    # En cas de réglage permet de situer la position de la souris
     currentMouseX, currentMouseY = souris.position()
     print(currentMouseX, currentMouseY)
 
